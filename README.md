@@ -18,6 +18,8 @@
 3. Нажми `Health` -> `Start`.
 4. Дождись `stage: done`.
 5. Нажми `Export CSV`.
+6. Для приоритизации загрузи CSV сюда:
+   - `https://lpo2010.github.io/saved-prioritizer-web/`
 
 Результат:
 - `saved_export_*.csv`
