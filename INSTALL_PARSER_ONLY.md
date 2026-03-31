@@ -1,5 +1,9 @@
 # Saved Reels Parser: parser-only инструкция (без web)
 
+Инструкция рассчитана на:
+- MacBook (macOS)
+- Google Chrome
+
 Эта инструкция только про Chrome extension:
 - парсинг Saved в Instagram
 - экспорт в CSV

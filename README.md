@@ -1,5 +1,9 @@
 # Saved Reels Parser (Public Install)
 
+Эта инструкция рассчитана на:
+- MacBook (macOS)
+- Google Chrome
+
 Это публичный установочный репозиторий.
 Исходный код разработки хранится отдельно (private).
 
