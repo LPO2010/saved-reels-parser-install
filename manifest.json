@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Saved Reels Parser MVP",
+  "version": "0.1.0",
+  "description": "Парсинг сохраненных постов и рилсов Instagram с экспортом в CSV.",
+  "permissions": ["storage", "downloads", "activeTab"],
+  "host_permissions": ["https://instagram.com/*", "https://www.instagram.com/*", "https://m.instagram.com/*"],
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "action": {
+    "default_title": "Saved Parser",
+    "default_popup": "popup/popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://instagram.com/*", "https://www.instagram.com/*", "https://m.instagram.com/*"],
+      "js": ["src/content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saved Parser</title>
+    <link rel="stylesheet" href="./popup.css" />
+  </head>
+  <body>
+    <main class="app">
+      <h1>Saved Parser MVP</h1>
+
+      <section class="row">
+        <button id="startBtn">Start</button>
+        <button id="pauseBtn">Pause</button>
+        <button id="resumeBtn">Resume</button>
+      </section>
+
+      <section class="row">
+        <button id="exportBtn" class="primary">Export CSV</button>
+        <button id="healthBtn">Health</button>
+      </section>
+
+      <section class="status" id="statusBox">
+        <div>stage: <span id="stage">idle</span></div>
+        <div>running: <span id="running">false</span></div>
+        <div>discovered: <span id="discovered">0</span></div>
+        <div>processed: <span id="processed">0</span></div>
+        <div>failed: <span id="failed">0</span></div>
+        <div>error: <span id="error">-</span></div>
+      </section>
+
+      <pre id="logBox" class="log"></pre>
+    </main>
+
+    <script src="./popup.js"></script>
+  </body>
+</html>
